@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190829 10:00:45.636" generator="Robot 3.1.2 (Python 2.7.10 on darwin)">
+<suite source="/Users/jhampleman/Desktop/viasat-react/test-react-app/react-playground-v2.4/robot_tests" id="s1" name="Robot Tests">
+<suite source="/Users/jhampleman/Desktop/viasat-react/test-react-app/react-playground-v2.4/robot_tests/resource.robot" id="s1-s1" name="Resource">
+<test id="s1-s1-t1" name="Open Form">
+<kw name="Open Browser To Login Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190829 10:00:46.028" level="INFO">Opening browser 'Firefox' to base url 'http://localhost:3000'.</msg>
+<status status="PASS" endtime="20190829 10:00:50.354" starttime="20190829 10:00:46.028"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20190829 10:00:51.017" starttime="20190829 10:00:50.354"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20190829 10:00:51.018" starttime="20190829 10:00:51.018"></status>
+</kw>
+<status status="PASS" endtime="20190829 10:00:51.018" starttime="20190829 10:00:46.028"></status>
+</kw>
+<kw name="Show Form">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>showme</arg>
+</arguments>
+<msg timestamp="20190829 10:00:51.019" level="INFO">Clicking button 'showme'.</msg>
+<status status="PASS" endtime="20190829 10:00:51.297" starttime="20190829 10:00:51.019"></status>
+</kw>
+<status status="PASS" endtime="20190829 10:00:51.297" starttime="20190829 10:00:51.018"></status>
+</kw>
+<kw name="Input Username">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>sessionval</arg>
+<arg>${SESH}</arg>
+</arguments>
+<msg timestamp="20190829 10:00:51.298" level="INFO">Typing text 'FF' into text field 'sessionval'.</msg>
+<status status="PASS" endtime="20190829 10:00:51.348" starttime="20190829 10:00:51.298"></status>
+</kw>
+<kw name="Get Table Cell" library="SeleniumLibrary">
+<doc>Returns contents of table cell.</doc>
+<arguments>
+<arg>tableloc</arg>
+<arg>1</arg>
+<arg>1</arg>
+</arguments>
+<status status="PASS" endtime="20190829 10:00:51.408" starttime="20190829 10:00:51.348"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>alert(document.getElementById("ptag").innerHTML)</arg>
+</arguments>
+<msg timestamp="20190829 10:00:51.409" level="INFO">Executing JavaScript:
+alert(document.getElementById("ptag").innerHTML)
+Without any arguments.</msg>
+<status status="PASS" endtime="20190829 10:00:51.461" starttime="20190829 10:00:51.408"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20190829 10:01:01.463" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20190829 10:01:01.463" starttime="20190829 10:00:51.461"></status>
+</kw>
+<status status="PASS" endtime="20190829 10:01:01.464" starttime="20190829 10:00:51.297"></status>
+</kw>
+<status status="PASS" endtime="20190829 10:01:01.464" critical="yes" starttime="20190829 10:00:46.027"></status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190829 10:01:04.112" starttime="20190829 10:01:01.466"></status>
+</kw>
+<doc>A resource file with reusable keywords and variables.
+
+The system specific keywords created here form our own
+domain specific language. They utilize keywords provided
+by the imported SeleniumLibrary.</doc>
+<status status="PASS" endtime="20190829 10:01:04.113" starttime="20190829 10:00:45.662"></status>
+</suite>
+<status status="PASS" endtime="20190829 10:01:04.115" starttime="20190829 10:00:45.638"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Robot Tests" pass="1">Robot Tests</stat>
+<stat fail="0" id="s1-s1" name="Resource" pass="1">Robot Tests.Resource</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

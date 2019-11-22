@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+.formstuff {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.orange {
+  color: orange;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.aqua {
+  color: aqua;
+}
+
+.materialUI {border:5px solid red;padding:20px;}
+
+/* Brings in WebFont */
+@font-face {
+	font-family: "UnineueBook";
+	src: url("./fonts/unineue-book-webfont.ttf") format("truetype"), url("./fonts/unineue-book-webfont.eot")
+}
+/* Apply webfont to body */
+h1,h2,h3,h4,h5,h6,p {font-family: 'UnineueBook', Arial, sans-serif !important;}
