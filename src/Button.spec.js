@@ -11,7 +11,7 @@ it('should render correctly', () => expect(wrapper).toMatchSnapshot());
   });
   it('should render an H3 headline', () => {
   expect(wrapper.containsAllMatchingElements([
-    <p id="myp" className="green2">(This is in Button.js)</p>,
+    <p id="myp" className="green">(This is in Button.js)</p>,
     <h3>Material UI - Test Elements Below</h3>
   ])).toEqual(true);
 });
