@@ -1,39 +1,30 @@
 {
   "name": "test-react",
   "version": "0.1.0",
-  "homepage": "http://demo.ux.viasat.io/apps/offers/react_test/",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "apollo-cache-inmemory": "^1.5.1",
-    "apollo-client": "^2.5.1",
-    "apollo-link-http": "^1.5.14",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "graphql": "^14.2.1",
+    "@material-ui/core": "^4.7.0",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-http": "^1.5.16",
+    "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
-    "graphql-tools": "^4.0.4",
     "jsxstyle": "^2.1.5",
-    "lodash": "^4.17.11",
-    "node": "^12.2.0",
+    "material-ui": "^0.20.2",
     "react": "^16.8.6",
-    "react-apollo": "^2.5.4",
+    "react-apollo": "^3.1.3",
     "react-dom": "^16.8.6",
-    "react-redux": "^7.0.3",
+    "react-redux": "^7.1.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-test-renderer": "^16.8.6",
-    "redux": "^4.0.1",
-    "webdriver-manager": "^12.1.6"
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint src/index.js",
-    "jasmine": "node_modules/.bin/jasmine"
+    "test": "jest",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,12 +34,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "dotenv": "^8.1.0",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "jasmine": "^3.4.0",
-    "jest-puppeteer": "^4.1.1"
-  }
+  ]
 }

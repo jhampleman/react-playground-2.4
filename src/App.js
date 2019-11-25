@@ -4,7 +4,8 @@ import Profile from './Profile';
 
 class Apollo extends Component {
   render() {
-    return <Profile />;
+    //return "<Profile />";
+    return "No GitHub Connection";
   }
 }
 
