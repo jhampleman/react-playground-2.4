@@ -8,6 +8,7 @@
     "apollo-cache-inmemory": "^1.5.1",
     "apollo-client": "^2.5.1",
     "apollo-link-http": "^1.5.14",
+    "babel-jest": "^24.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-react": "^7.13.0",
@@ -36,13 +37,12 @@
     "lint": "eslint src/index.js",
     "jasmine": "node_modules/.bin/jasmine"
   },
-
-"jest": {
-  "coverageReporters": [
-    "text",
-    "html"
-  ]
-},
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "html"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -53,6 +53,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
     "dotenv": "^8.1.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
