@@ -25,8 +25,7 @@
     "react-scripts": "2.1.8",
     "react-test-renderer": "^16.8.6",
     "redux": "^4.0.1",
-    "webdriver-manager": "^12.1.6",
-    "webpack": "^4.41.2"
+    "webdriver-manager": "^12.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,7 +42,8 @@
     "coverageReporters": [
       "text",
       "html"
-    ]},
+    ]
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -51,6 +51,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
     "dotenv": "^8.1.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
