@@ -32,7 +32,6 @@
     "build": "react-scripts build",
     "test": "jest --coverage --coverageDirectory=output/coverage/jest",
     "eject": "react-scripts eject",
-    "lint": "eslint src/index.js",
     "jasmine": "node_modules/.bin/jasmine"
   },
   "eslintConfig": {

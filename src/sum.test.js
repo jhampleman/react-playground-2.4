@@ -32,7 +32,7 @@ test('two plus two', () => {
   expect(value).toBeGreaterThanOrEqual(3.5);
   expect(value).toBeLessThan(20);
   expect(value).toBeLessThanOrEqual(17);
-  
+
   // toBe and toEqual are equivalent for numbers
   expect(value).toBe(16.7);
 });

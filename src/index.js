@@ -29,6 +29,11 @@ import logo from './images/viasat-logo.svg';
 
 const cache = new InMemoryCache();
 
+/* Run Jenkins for Git on Docker:
+$ docker run --name jenkins -p 8080:8080 -v /var/jenkins_home jenkins */
+
+ /* $ eslint src/App.js$ */
+
 /* MyTitle, DynaTitle, Table and table data are NOT pulled in from outside files.
 These are created in this main index.js file */
 
@@ -56,6 +61,7 @@ const MyAppWithStore = () => (
   </Provider>
 );
 
+
 /* Static H1 Tag as a Class */
 class MyTitle extends Component {
   render() {
@@ -67,7 +73,7 @@ class MyTitle extends Component {
 const DynaTitle = ({ thetitle }) => <h2>{thetitle}</h2>;
 
 /* Builds the data for the Table into Array object */
-var obj = [
+let obj = [
   {
     name: 'option B',
     price: 9.5,
