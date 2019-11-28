@@ -25,7 +25,7 @@ export default class ButtonUI extends Component {
 
   render() {
     const myform = <Results />;
-    
+
 
     return (
       <div className="formstuff">

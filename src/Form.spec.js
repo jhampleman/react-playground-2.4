@@ -1,5 +1,8 @@
 import React from 'react';
+import * as enzyme from 'enzyme';
 import { shallow } from 'enzyme';
+const Adapter = require ('enzyme-adapter-react-16') ;
+enzyme.configure({ adapter: new Adapter() });
 import Form from './Form';
 
 describe('Form', () => {

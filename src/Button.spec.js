@@ -1,5 +1,8 @@
 import React from 'react';
+import * as enzyme from 'enzyme';
 import { shallow } from 'enzyme';
+const Adapter = require ('enzyme-adapter-react-16') ;
+enzyme.configure({ adapter: new Adapter() });
 import ButtonUI from './Button';
 
 describe('ButtonUI', () => {
@@ -15,6 +18,6 @@ it('should render correctly', () => expect(wrapper).toMatchSnapshot());
     <h3>Material UI - Test Elements Below</h3>
   ])).toEqual(true);
 });
-  
+
 
 });

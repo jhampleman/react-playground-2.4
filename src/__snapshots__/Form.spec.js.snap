@@ -1,3 +1,432 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form should render correctly 1`] = `undefined`;
+exports[`Form should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Form />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="blue enztest"
+        >
+          This is in Form.js and uses Enzyme - See Form.spec
+        </p>,
+        <form>
+          First Name:
+           
+          <input
+            name="myFirstName"
+            onChange={[Function]}
+            type="text"
+          />
+          <br />
+          Last Name:
+           
+          <input
+            name="myLastName"
+            onChange={[Function]}
+            type="text"
+          />
+          <br />
+          <br />
+          <input
+            onClick={[Function]}
+            type="button"
+            value="Submit"
+          />
+          <Sessions />
+          <input
+            onClick={[Function]}
+            type="button"
+            value="Clear Cache"
+          />
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This is in Form.js and uses Enzyme - See Form.spec",
+          "className": "blue enztest",
+        },
+        "ref": null,
+        "rendered": "This is in Form.js and uses Enzyme - See Form.spec",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "First Name:",
+            " ",
+            <input
+              name="myFirstName"
+              onChange={[Function]}
+              type="text"
+            />,
+            <br />,
+            "Last Name:",
+            " ",
+            <input
+              name="myLastName"
+              onChange={[Function]}
+              type="text"
+            />,
+            <br />,
+            <br />,
+            <input
+              onClick={[Function]}
+              type="button"
+              value="Submit"
+            />,
+            <Sessions />,
+            <input
+              onClick={[Function]}
+              type="button"
+              value="Clear Cache"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "First Name:",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "myFirstName",
+              "onChange": [Function],
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "Last Name:",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "name": "myLastName",
+              "onChange": [Function],
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onClick": [Function],
+              "type": "button",
+              "value": "Submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onClick": [Function],
+              "type": "button",
+              "value": "Clear Cache",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="blue enztest"
+          >
+            This is in Form.js and uses Enzyme - See Form.spec
+          </p>,
+          <form>
+            First Name:
+             
+            <input
+              name="myFirstName"
+              onChange={[Function]}
+              type="text"
+            />
+            <br />
+            Last Name:
+             
+            <input
+              name="myLastName"
+              onChange={[Function]}
+              type="text"
+            />
+            <br />
+            <br />
+            <input
+              onClick={[Function]}
+              type="button"
+              value="Submit"
+            />
+            <Sessions />
+            <input
+              onClick={[Function]}
+              type="button"
+              value="Clear Cache"
+            />
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This is in Form.js and uses Enzyme - See Form.spec",
+            "className": "blue enztest",
+          },
+          "ref": null,
+          "rendered": "This is in Form.js and uses Enzyme - See Form.spec",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "First Name:",
+              " ",
+              <input
+                name="myFirstName"
+                onChange={[Function]}
+                type="text"
+              />,
+              <br />,
+              "Last Name:",
+              " ",
+              <input
+                name="myLastName"
+                onChange={[Function]}
+                type="text"
+              />,
+              <br />,
+              <br />,
+              <input
+                onClick={[Function]}
+                type="button"
+                value="Submit"
+              />,
+              <Sessions />,
+              <input
+                onClick={[Function]}
+                type="button"
+                value="Clear Cache"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "First Name:",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "myFirstName",
+                "onChange": [Function],
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "Last Name:",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "myLastName",
+                "onChange": [Function],
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onClick": [Function],
+                "type": "button",
+                "value": "Submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onClick": [Function],
+                "type": "button",
+                "value": "Clear Cache",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
