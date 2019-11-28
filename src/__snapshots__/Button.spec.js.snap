@@ -42,49 +42,7 @@ ShallowWrapper {
         >
           (This is in Button.js)
         </p>,
-        <div
-          className="materialUI"
-        >
-          <h3>
-            Material UI - Test Elements Below
-          </h3>
-          <WithStyles(FormControl)
-            className="tbd"
-            component="fieldset"
-          >
-            <WithStyles(WithFormControlContext(FormLabel))
-              component="legend"
-            >
-              Radio Buttons Material-UI Default
-            </WithStyles(WithFormControlContext(FormLabel))>
-            <RadioGroup
-              aria-label="approve"
-              name="approval1"
-              onChange=""
-              value="choice"
-            >
-              <WithStyles(WithFormControlContext(FormControlLabel))
-                control={<WithStyles(Radio) />}
-                label="Yes"
-                value="yes"
-              />
-              <WithStyles(WithFormControlContext(FormControlLabel))
-                control={
-                  <WithStyles(Radio)
-                    checked="no"
-                  />
-                }
-                label="No (Selected)"
-                value="no"
-              />
-              <WithStyles(WithFormControlContext(FormControlLabel))
-                control={<WithStyles(Radio) />}
-                disabled={true}
-                label="(Disabled option)"
-                value="disabled"
-              />
-            </RadioGroup>
-          </WithStyles(FormControl)>
+        <div>
           <div>
             <WithStyles(Button)
               className="tbd"
@@ -157,238 +115,44 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <h3>
-              Material UI - Test Elements Below
-            </h3>,
-            <WithStyles(FormControl)
+          "children": <div>
+            <WithStyles(Button)
               className="tbd"
-              component="fieldset"
+              variant="contained"
             >
-              <WithStyles(WithFormControlContext(FormLabel))
-                component="legend"
-              >
-                Radio Buttons Material-UI Default
-              </WithStyles(WithFormControlContext(FormLabel))>
-              <RadioGroup
-                aria-label="approve"
-                name="approval1"
-                onChange=""
-                value="choice"
-              >
-                <WithStyles(WithFormControlContext(FormControlLabel))
-                  control={<WithStyles(Radio) />}
-                  label="Yes"
-                  value="yes"
-                />
-                <WithStyles(WithFormControlContext(FormControlLabel))
-                  control={
-                    <WithStyles(Radio)
-                      checked="no"
-                    />
-                  }
-                  label="No (Selected)"
-                  value="no"
-                />
-                <WithStyles(WithFormControlContext(FormControlLabel))
-                  control={<WithStyles(Radio) />}
-                  disabled={true}
-                  label="(Disabled option)"
-                  value="disabled"
-                />
-              </RadioGroup>
-            </WithStyles(FormControl)>,
-            <div>
-              <WithStyles(Button)
-                className="tbd"
-                variant="contained"
-              >
-                Basic Button
-              </WithStyles(Button)>
-            </div>,
-          ],
-          "className": "materialUI",
+              Basic Button
+            </WithStyles(Button)>
+          </div>,
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Material UI - Test Elements Below",
-            },
-            "ref": null,
-            "rendered": "Material UI - Test Elements Below",
-            "type": "h3",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <WithStyles(Button)
+              className="tbd"
+              variant="contained"
+            >
+              Basic Button
+            </WithStyles(Button)>,
           },
-          Object {
+          "ref": null,
+          "rendered": Object {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": Array [
-                <WithStyles(WithFormControlContext(FormLabel))
-                  component="legend"
-                >
-                  Radio Buttons Material-UI Default
-                </WithStyles(WithFormControlContext(FormLabel))>,
-                <RadioGroup
-                  aria-label="approve"
-                  name="approval1"
-                  onChange=""
-                  value="choice"
-                >
-                  <WithStyles(WithFormControlContext(FormControlLabel))
-                    control={<WithStyles(Radio) />}
-                    label="Yes"
-                    value="yes"
-                  />
-                  <WithStyles(WithFormControlContext(FormControlLabel))
-                    control={
-                      <WithStyles(Radio)
-                        checked="no"
-                      />
-                    }
-                    label="No (Selected)"
-                    value="no"
-                  />
-                  <WithStyles(WithFormControlContext(FormControlLabel))
-                    control={<WithStyles(Radio) />}
-                    disabled={true}
-                    label="(Disabled option)"
-                    value="disabled"
-                  />
-                </RadioGroup>,
-              ],
+              "children": "Basic Button",
               "className": "tbd",
-              "component": "fieldset",
+              "variant": "contained",
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Radio Buttons Material-UI Default",
-                  "component": "legend",
-                },
-                "ref": null,
-                "rendered": "Radio Buttons Material-UI Default",
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "aria-label": "approve",
-                  "children": Array [
-                    <WithStyles(WithFormControlContext(FormControlLabel))
-                      control={<WithStyles(Radio) />}
-                      label="Yes"
-                      value="yes"
-                    />,
-                    <WithStyles(WithFormControlContext(FormControlLabel))
-                      control={
-                        <WithStyles(Radio)
-                          checked="no"
-                        />
-                      }
-                      label="No (Selected)"
-                      value="no"
-                    />,
-                    <WithStyles(WithFormControlContext(FormControlLabel))
-                      control={<WithStyles(Radio) />}
-                      disabled={true}
-                      label="(Disabled option)"
-                      value="disabled"
-                    />,
-                  ],
-                  "name": "approval1",
-                  "onChange": "",
-                  "value": "choice",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "control": <WithStyles(Radio) />,
-                      "label": "Yes",
-                      "value": "yes",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "control": <WithStyles(Radio)
-                        checked="no"
-                      />,
-                      "label": "No (Selected)",
-                      "value": "no",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "control": <WithStyles(Radio) />,
-                      "disabled": true,
-                      "label": "(Disabled option)",
-                      "value": "disabled",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                ],
-                "type": [Function],
-              },
-            ],
+            "rendered": "Basic Button",
             "type": [Function],
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <WithStyles(Button)
-                className="tbd"
-                variant="contained"
-              >
-                Basic Button
-              </WithStyles(Button)>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Basic Button",
-                "className": "tbd",
-                "variant": "contained",
-              },
-              "ref": null,
-              "rendered": "Basic Button",
-              "type": [Function],
-            },
-            "type": "div",
-          },
-        ],
+          "type": "div",
+        },
         "type": "div",
       },
     ],
@@ -424,49 +188,7 @@ ShallowWrapper {
           >
             (This is in Button.js)
           </p>,
-          <div
-            className="materialUI"
-          >
-            <h3>
-              Material UI - Test Elements Below
-            </h3>
-            <WithStyles(FormControl)
-              className="tbd"
-              component="fieldset"
-            >
-              <WithStyles(WithFormControlContext(FormLabel))
-                component="legend"
-              >
-                Radio Buttons Material-UI Default
-              </WithStyles(WithFormControlContext(FormLabel))>
-              <RadioGroup
-                aria-label="approve"
-                name="approval1"
-                onChange=""
-                value="choice"
-              >
-                <WithStyles(WithFormControlContext(FormControlLabel))
-                  control={<WithStyles(Radio) />}
-                  label="Yes"
-                  value="yes"
-                />
-                <WithStyles(WithFormControlContext(FormControlLabel))
-                  control={
-                    <WithStyles(Radio)
-                      checked="no"
-                    />
-                  }
-                  label="No (Selected)"
-                  value="no"
-                />
-                <WithStyles(WithFormControlContext(FormControlLabel))
-                  control={<WithStyles(Radio) />}
-                  disabled={true}
-                  label="(Disabled option)"
-                  value="disabled"
-                />
-              </RadioGroup>
-            </WithStyles(FormControl)>
+          <div>
             <div>
               <WithStyles(Button)
                 className="tbd"
@@ -539,238 +261,44 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <h3>
-                Material UI - Test Elements Below
-              </h3>,
-              <WithStyles(FormControl)
+            "children": <div>
+              <WithStyles(Button)
                 className="tbd"
-                component="fieldset"
+                variant="contained"
               >
-                <WithStyles(WithFormControlContext(FormLabel))
-                  component="legend"
-                >
-                  Radio Buttons Material-UI Default
-                </WithStyles(WithFormControlContext(FormLabel))>
-                <RadioGroup
-                  aria-label="approve"
-                  name="approval1"
-                  onChange=""
-                  value="choice"
-                >
-                  <WithStyles(WithFormControlContext(FormControlLabel))
-                    control={<WithStyles(Radio) />}
-                    label="Yes"
-                    value="yes"
-                  />
-                  <WithStyles(WithFormControlContext(FormControlLabel))
-                    control={
-                      <WithStyles(Radio)
-                        checked="no"
-                      />
-                    }
-                    label="No (Selected)"
-                    value="no"
-                  />
-                  <WithStyles(WithFormControlContext(FormControlLabel))
-                    control={<WithStyles(Radio) />}
-                    disabled={true}
-                    label="(Disabled option)"
-                    value="disabled"
-                  />
-                </RadioGroup>
-              </WithStyles(FormControl)>,
-              <div>
-                <WithStyles(Button)
-                  className="tbd"
-                  variant="contained"
-                >
-                  Basic Button
-                </WithStyles(Button)>
-              </div>,
-            ],
-            "className": "materialUI",
+                Basic Button
+              </WithStyles(Button)>
+            </div>,
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Material UI - Test Elements Below",
-              },
-              "ref": null,
-              "rendered": "Material UI - Test Elements Below",
-              "type": "h3",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <WithStyles(Button)
+                className="tbd"
+                variant="contained"
+              >
+                Basic Button
+              </WithStyles(Button)>,
             },
-            Object {
+            "ref": null,
+            "rendered": Object {
               "instance": null,
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": Array [
-                  <WithStyles(WithFormControlContext(FormLabel))
-                    component="legend"
-                  >
-                    Radio Buttons Material-UI Default
-                  </WithStyles(WithFormControlContext(FormLabel))>,
-                  <RadioGroup
-                    aria-label="approve"
-                    name="approval1"
-                    onChange=""
-                    value="choice"
-                  >
-                    <WithStyles(WithFormControlContext(FormControlLabel))
-                      control={<WithStyles(Radio) />}
-                      label="Yes"
-                      value="yes"
-                    />
-                    <WithStyles(WithFormControlContext(FormControlLabel))
-                      control={
-                        <WithStyles(Radio)
-                          checked="no"
-                        />
-                      }
-                      label="No (Selected)"
-                      value="no"
-                    />
-                    <WithStyles(WithFormControlContext(FormControlLabel))
-                      control={<WithStyles(Radio) />}
-                      disabled={true}
-                      label="(Disabled option)"
-                      value="disabled"
-                    />
-                  </RadioGroup>,
-                ],
+                "children": "Basic Button",
                 "className": "tbd",
-                "component": "fieldset",
+                "variant": "contained",
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "children": "Radio Buttons Material-UI Default",
-                    "component": "legend",
-                  },
-                  "ref": null,
-                  "rendered": "Radio Buttons Material-UI Default",
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "aria-label": "approve",
-                    "children": Array [
-                      <WithStyles(WithFormControlContext(FormControlLabel))
-                        control={<WithStyles(Radio) />}
-                        label="Yes"
-                        value="yes"
-                      />,
-                      <WithStyles(WithFormControlContext(FormControlLabel))
-                        control={
-                          <WithStyles(Radio)
-                            checked="no"
-                          />
-                        }
-                        label="No (Selected)"
-                        value="no"
-                      />,
-                      <WithStyles(WithFormControlContext(FormControlLabel))
-                        control={<WithStyles(Radio) />}
-                        disabled={true}
-                        label="(Disabled option)"
-                        value="disabled"
-                      />,
-                    ],
-                    "name": "approval1",
-                    "onChange": "",
-                    "value": "choice",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "class",
-                      "props": Object {
-                        "control": <WithStyles(Radio) />,
-                        "label": "Yes",
-                        "value": "yes",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "class",
-                      "props": Object {
-                        "control": <WithStyles(Radio)
-                          checked="no"
-                        />,
-                        "label": "No (Selected)",
-                        "value": "no",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "class",
-                      "props": Object {
-                        "control": <WithStyles(Radio) />,
-                        "disabled": true,
-                        "label": "(Disabled option)",
-                        "value": "disabled",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                  ],
-                  "type": [Function],
-                },
-              ],
+              "rendered": "Basic Button",
               "type": [Function],
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <WithStyles(Button)
-                  className="tbd"
-                  variant="contained"
-                >
-                  Basic Button
-                </WithStyles(Button)>,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Basic Button",
-                  "className": "tbd",
-                  "variant": "contained",
-                },
-                "ref": null,
-                "rendered": "Basic Button",
-                "type": [Function],
-              },
-              "type": "div",
-            },
-          ],
+            "type": "div",
+          },
           "type": "div",
         },
       ],
