@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+=======
     "presets": [
         "@babel/preset-react"
     ]
+>>>>>>> 7d40b9fabf0d6cf5c82f35496597c55cd122d607
 }

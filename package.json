@@ -8,7 +8,11 @@
     "apollo-cache-inmemory": "^1.5.1",
     "apollo-client": "^2.5.1",
     "apollo-link-http": "^1.5.14",
+<<<<<<< HEAD
+    "babel-loader": "^8.0.6",
+=======
     "babel-jest": "^24.9.0",
+>>>>>>> 7d40b9fabf0d6cf5c82f35496597c55cd122d607
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-react": "^7.13.0",
@@ -21,16 +25,21 @@
     "react": "^16.12.0",
     "react-apollo": "^2.5.4",
     "react-dom": "^16.12.0",
+    "react-loader": "^2.4.6",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.8",
     "react-test-renderer": "^16.12.0",
     "redux": "^4.0.1",
     "webdriver-manager": "^12.1.6",
+<<<<<<< HEAD
+    "webpack": "^4.28.4"
+=======
     "webpack": "^4.41.2"
+>>>>>>> 7d40b9fabf0d6cf5c82f35496597c55cd122d607
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "webpack",
     "build": "react-scripts build",
     "test": "jest --coverage --coverageDirectory=output/coverage/jest",
     "eject": "react-scripts eject",
@@ -53,12 +62,16 @@
     "not op_mini all"
   ],
   "devDependencies": {
+<<<<<<< HEAD
+=======
     "@babel/core": "^7.7.4",
+>>>>>>> 7d40b9fabf0d6cf5c82f35496597c55cd122d607
     "@babel/preset-react": "^7.7.4",
     "dotenv": "^8.1.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "jasmine": "^3.4.0",
-    "jest-puppeteer": "^4.1.1"
+    "jest-puppeteer": "^4.1.1",
+    "webpack-cli": "^3.3.10"
   }
 }
